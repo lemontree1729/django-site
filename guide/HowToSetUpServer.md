@@ -27,7 +27,7 @@ Python(Ver: 3.10.0, UsedTo: Used django)
 
 ## 4. Make python virtual environment with django
 
-### Initialize (once only)
+### 1) Initialize (once only)
 
 * install [Python](https://www.python.org/downloads/)
 * type `cd $project-path$` on PowerShell to move to the path
@@ -44,7 +44,7 @@ Python(Ver: 3.10.0, UsedTo: Used django)
 * type `py -3.10 manage.py startapp $app-name$` on PowerShell to make new app
 * type `pip freeze > requirements.txt` to collect package you used
 
-### After initialize
+### 2) After initialize
 
 * type `cd $project-path$\$project-name$` on PowerShell
 * type `$virt-name$\Scripts\Activate.ps1` on PowerShell to activate virtual environment
