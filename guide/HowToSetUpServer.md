@@ -31,10 +31,11 @@ Python(Ver: 3.10.0, UsedTo: Used django)
 
 * install [Python](https://www.python.org/downloads/)
 * type `cd $project-path$` on PowerShell to move to the path
-* type `mkdir $project-name$` and `cd $project-name$` to prepare folder
+* type `mkdir $project-name$` to prepare folder
 * type `py -3.10 -m venv $virt-name$` on PowerShell
 * type `$virt-name$\Scripts\Activate.ps1`(for only PowerShell) on PowerShell to activate virtual environment(type `deactivate` to deactivate) ([more details on here](https://docs.python.org/ko/3.7/library/venv.html))
   * if you have an Security error, you should type `Set-ExecutionPolicy RemoteSigned -force` on PowerShell **run as administrator** ([more details on here](https://dreamlog.tistory.com/603))
+* and type `cd $project-name$` to move folder
 * if you could see the commandlines like `($virt-name$) $project-path$\$project-name$`, it works!
 * (from now on, you should install used modules every time you entered virtual environment!)
 * type `py -3.10 -m pip install --upgrade pip` on PowerShell to upgrade pip
