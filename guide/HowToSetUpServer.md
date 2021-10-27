@@ -18,12 +18,12 @@ Python(Ver: 3.10.0, UsedTo: Used django)
 
 * [Download MobaXterm](https://mobaxterm.mobatek.net/download.html)
 * Make SSH session and add ip address and private key with pem extension
-* Type `ubuntu`(default user name) to enter VM(Type `exit` to exit)
+* Type `ubuntu`(default user name for AWS VM) to enter VM(Type `exit` to exit)
 
 ## 3. Set your server
 
-* Set root password with typing `sudo passwd root` commend
-* s
+* set root password with typing `sudo passwd root` commend
+* type `sudo update`??
 
 ## 4. Make python virtual environment with django
 
