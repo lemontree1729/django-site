@@ -1,6 +1,6 @@
 # How to set up server
 
-## Stacks
+## 0. Stacks
 
 Linux(Ver: AWS VM Ubuntu 20.04.2 LTS, UsedTo: Server computer)  
 Windows(Ver: 10 Home, UsedTo: Local computer)  
