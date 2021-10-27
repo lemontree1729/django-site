@@ -25,7 +25,7 @@ Python(Ver: 3.10.0, UsedTo: Used django)
 * Set root password with typing `sudo passwd root` commend
 * s
 
-## 4. Make vertual invironment
+## 4. Make python virtual invironment with django
 
 * install [Python](https://www.python.org/downloads/)
 * type `cd $project-path$` on PowerShell to move to the path
