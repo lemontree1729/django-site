@@ -2,10 +2,10 @@
 
 ## Stacks
 
-Linux(Ver: AWS VM Ubuntu 20.04.2 LTS, UsedTo: Server computer)
-Windows(Ver: 10 Home, UsedTo: Local computer)
-MobaXterm(Ver: Personal Edition v21.4, UsedTo: Connect server and local via SSH and SFTP)
-Python(Ver: 3.10.0, UsedTo: Used django)
+Linux(Ver: AWS VM Ubuntu 20.04.2 LTS, UsedTo: Server computer)  
+Windows(Ver: 10 Home, UsedTo: Local computer)  
+MobaXterm(Ver: Personal Edition v21.4, UsedTo: Connect server and local via SSH and SFTP)  
+Python(Ver: 3.10.0, UsedTo: Used django)  
 
 ## 1. Make a virtual machine
 
