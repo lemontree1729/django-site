@@ -25,16 +25,17 @@ Python(Ver: 3.10.0, UsedTo: Used django)
 * Set root password with typing `sudo passwd root` commend
 * s
 
-## 4. Make python virtual invironment with django
+## 4. Make python virtual environment with django
 
+### Initialize (once only)
 * install [Python](https://www.python.org/downloads/)
 * type `cd $project-path$` on PowerShell to move to the path
 * type `mkdir $project-name$` and `cd $project-name$` to prepare folder
 * type `py -3.10 -m venv $virt-name$` on PowerShell
-* type `$virt-name$\Scripts\Activate.ps1`(for only PowerShell) on PowerShell to activate veirual invironment(type `deactivate` to deactivate) ([more details on here](https://docs.python.org/ko/3.7/library/venv.html))
+* type `$virt-name$\Scripts\Activate.ps1`(for only PowerShell) on PowerShell to activate virtual environment(type `deactivate` to deactivate) ([more details on here](https://docs.python.org/ko/3.7/library/venv.html))
   * if you have an Security error, you should type `Set-ExecutionPolicy RemoteSigned -force` on PowerShell **run as administrator** ([more details on here](https://dreamlog.tistory.com/603))
 * if you could see the commandlines like `($virt-name$) $project-path$\$project-name$`, it works!
-* (from now on, you should install used modules every time you entered virtual invironment!)
+* (from now on, you should install used modules every time you entered virtual environment!)
 * type `py -3.10 -m pip install --upgrade pip` on PowerShell to upgrade pip
 * type `py -3.10 -m pip install django` on PowerShell to install django
 * type `django-admin startproject config .` on PowerShell to make a config
@@ -42,6 +43,11 @@ Python(Ver: 3.10.0, UsedTo: Used django)
 * type `py -3.10 manage.py startapp $app-name$` on PowerShell to make new app
 * type `pip freeze > requirements.txt` to collect package you used
 * (after now on, you could install modules easier with using command `py -3.10 -m pip install -r $req-path$\requirements.txt` when we start virt env)
+
+### After initialize
+* type `cd $project-path$\$project-name$` on PowerShell
+* type `$virt-name$\Scripts\Activate.ps1` on PowerShell to activate virtual environment
+* type `py -3.10 -m pip install -r $req-path$\requirements.txt` on PowerShell to install packages
 
 ```
 file structure :
